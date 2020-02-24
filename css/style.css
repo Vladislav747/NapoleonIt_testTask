@@ -1,0 +1,297 @@
+body{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    color: #fff;
+    font: 14px/22px "Open Sans",Arial,sans-serif;
+    box-sizing: border-box;
+    background-color: #ececec;
+}
+
+img {
+    width: 120px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+/*------------------------------------------Header---------------------------------------------*/
+
+#nav-bar {
+    height: 55px;
+}
+
+/*------------------------------------------Banner---------------------------------------------*/
+
+#home-wrap{
+    background-image: url(../images/computers.png);
+}
+
+#banner {
+    color: #fff;
+    padding-top: 5%;
+    height: 400px;
+    background-image: url(../images/computers.png);
+
+}
+
+.banner {
+    margin-top: -4.25em
+}
+
+.promo-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 100px;
+    text-transform: uppercase;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-top: 2rem;
+}
+
+#banner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+.promo-description{
+    font-size: 18px;
+}
+
+/*------------------------------Phone Section ---------------------------------------------------*/
+
+.phone__section{
+    text-align: center;
+   
+}
+
+.phone__btn-show{
+    width: 190px;
+    height: 70px;
+    padding: 0;
+    line-height: 73px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #6c757d;
+}
+
+.phone__btn-show:hover {
+    background-color: #5c5e60;
+}
+  
+.phone__wrapper{
+    border: 3px solid #6c757d;
+    text-align: center;
+    margin:20px auto 20px;
+    width: 300px;
+    min-height: 40px;
+    padding: 10px;
+}
+
+.phone__wrapper.hide{
+    display: none;
+}
+
+/*------------------------------------------Services---------------------------------------------*/
+
+#services {
+    padding: 5% 0;
+    text-align: center;
+}
+
+#services img {
+    width: 200px;
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.services-text{
+    left: 45%;
+    top:5%;
+}
+
+
+#services .btn {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 8px 25px;
+    border: none;
+    background-image: linear-gradient(to right, #737174, #aca5a5);
+    max-width: 100px;
+}
+
+h1.title {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+    
+}
+
+.title::before {
+    content: '';
+    background: #737174;
+    height: 5px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    transform: translateY(51px);
+}
+
+.title::after {
+    content: '';
+    background: #737174;
+    height: 10px;
+    width: 50px;
+    margin: 0 auto 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+@media screen and (max-width: 768px) {
+    .services {
+        margin: 30px auto;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .services {
+        margin: 20px auto;
+    }
+
+    .services-text{
+        left: 30%;
+    }
+}
+
+/*------------------------------------------ experience--------------------------------------------*/
+#experience {
+    padding: 80px 0;
+    text-align: center;
+    background: #ececec;
+}
+
+.experience-row {
+    margin-top: 50px;
+}
+
+.experience p {
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .experience{
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .experience{
+        margin-bottom: 10%;
+    }
+}
+
+/*------------------------------------------ Resources--------------------------------------------*/
+
+
+.fixed{
+    background-image: url(../images/computers.png);
+    z-index: -1;
+}
+
+.dark{
+    background-color: rgba(0, 0, 0, 0.35);
+    color: white;
+    padding: 6rem 2rem;
+}
+
+
+/*------------------------------------------About-us---------------------------------------------*/
+
+#about-us {
+    padding: 80px 0;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+#about-us ul {
+    margin-left: 10px;
+}
+
+#about-us ul li {
+    margin: 10px 0;
+    text-align: left;
+}
+
+#about-us img {
+    width: 160px;
+    margin: auto;
+    float: right;
+    border-radius: 20px;
+}
+
+/*------------------------------------------projects---------------------------------------------*/
+
+#projects {
+    margin: 100px 0 20px;
+    background: #ececec;
+    padding: 5% 0;
+}
+
+#projects img {
+    width: 120px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.projects {
+    margin: 20px 20px 0;
+
+}
+
+.projects a{
+    margin-left: 7%;
+}
+
+.user-details {
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+/*------------------------------------------Footer---------------------------------------------*/
+
+footer {
+    width: 100%;
+    padding:4%;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+.narrow{
+    width: 75%;
+    margin: 1.5rem auto !important;
+
+}
+
+.btn-secondary{
+    border-width:medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding:  .6rem 1.2rem;
+    margin: 1rem;
+    color: black;
+    background-color: grey;
+}
